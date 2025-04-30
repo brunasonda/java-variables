@@ -17,19 +17,21 @@ public class Cakes {
 
         //Declara y asigna un valor a una variable double
         //Escribe aquí tu código
-        System.out.println("Valor original de double: <doubleValue>");
+        double testdouble = 10.2;
+        System.out.println("Valor original de double: " + (double)testdouble);
 
         //Convierte double a int
         //Escribe aquí tu código
-        System.out.println("Valor convertido de double a int: <intValue>");
+        System.out.println("Valor convertido de double a int: " + (int)testdouble);
 
         //Declara y asigna un valor a una variable int
         //Escribe aquí tu código
-        System.out.println("Valor original de int: <anotherIntValue>");
+        int testInt= 10;
+        System.out.println("Valor original de int: " + testInt);
 
         //Convierte int a double
         //Escribe aquí tu código
-        System.out.println("Valor convertido de int a double: <anotherDoubleValue>");
+        System.out.println("Valor convertido de int a double: " + (double)testInt);
                
     }
 }

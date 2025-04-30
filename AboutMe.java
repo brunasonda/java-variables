@@ -2,15 +2,22 @@ public class AboutMe {
     public static void main(String[] args) {
         //inicializar una variable (del tipo que veas conveniente) para cada uno de los siguentes datos: nombre, edad, país, lenguaje de programación, horas, pasatiempo, lugar y reemplaza en el texto de impresión, la variable que corresponda.
 
-        //Escribe tu código aquí
+        String nombre = "Bruna";
+        int edad = 33;
+        String pais = "Brasil";
+        String lenguagedeprogramacion = "Java";
+        int horas = 7;
+        String pasatiempo = "hacer cosas con arcilla";
+        String lugar = "mi casa";
+
 
         //Reemplaza <name> y <age> concatenando el String con las variables creadas. 
-        System.out.println("Mi nombre es <name>, tengo <age> años y soy de <country>.");
+        System.out.println("Mi nombre es " + nombre + ", tengo " + edad + " años y soy de " + pais + ".");
 
-        //Reemplaza <programmingLanguage> y <hours> concatenando el String con las variables creadas. 
-        System.out.println("Estoy estudiando <programmingLanguage> y practico <hours> horas al día.");
+        //Reemplaza <programmingLanguage> y <hours> concatenando el String con las variables creadas.
+        System.out.println("Estoy estudiando " + lenguagedeprogramacion + " y practico " + horas + " horas al día.");
 
         //Reemplaza <hobby> y <place> concatenando el String con las variables creadas.
-        System.out.println("Mi pasatiempo favorito es <hobby> y lo practico en <place>");
+        System.out.println("Mi pasatiempo favorito es " + pasatiempo + " y lo practico en " + lugar);
     }
 }
